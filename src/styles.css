@@ -1,0 +1,25 @@
+.base {
+  cursor: pointer;
+  padding: 8px 20px;
+}
+.base:hover {
+  background-color: lightblue;
+}
+.base:active {
+  color: red;
+}
+.base.selected {
+  color: red;
+}
+
+.topping {
+  cursor: pointer;
+  padding: 3px;
+}
+.topping:hover {
+  background-color: lightgoldenrodyellow;
+}
+.topping.selected {
+  margin-left: 10px;
+  background-color: lightseagreen;
+}
